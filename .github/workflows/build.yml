@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+    - Son-The-SUN
     - releases/*
     paths-ignore:
     - '**.md'
