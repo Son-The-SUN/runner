@@ -1,11 +1,10 @@
-name: Runner CI
+name: Runner CI sonthesun
 
 on:
   workflow_dispatch:
   push:
     branches:
     - Son-The-SUN
-    - self-hosted/releases/*
     paths-ignore:
     - '**.md'
   pull_request:
