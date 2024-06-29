@@ -40,7 +40,7 @@ jobs:
           devScript: ./dev.sh
 
         - runtime: win-x64
-          os: son-the-sun
+          os: windows-2019
           devScript: ./dev
 
         - runtime: win-arm64
