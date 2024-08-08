@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     branches: 
-      - main
+      - Son-The-SUN
   pull_request:
   schedule:
     - cron: '0 0 * * 0'
