@@ -20,5 +20,5 @@ jobs:
           DEFAULT_BRANCH: ${{ github.base_ref }}
           EDITORCONFIG_FILE_NAME: .editorconfig
           LINTER_RULES_PATH: /src/
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: true
           VALIDATE_CSHARP: true
