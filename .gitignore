@@ -11,9 +11,7 @@
 **/*.error
 **/*.json.pretty
 .idea/
-.vscode
-!.vscode/launch.json
-!.vscode/tasks.json
+.vscode/
 
 # output
 node_modules
@@ -23,8 +21,9 @@ _layout_trims
 _package
 _package_trims
 _dotnetsdk
-TestResults
+_testresults
 TestLogs
 .DS_Store
 .mono
+.txt
 **/*.DotSettings.user
