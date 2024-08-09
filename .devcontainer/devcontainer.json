@@ -18,10 +18,10 @@
       "extensions": [
         "ms-azuretools.vscode-docker",
         "ms-dotnettools.csharp",
-        "eamodio.gitlens"
+        "ms-python"
       ]
     }
   },
   "postCreateCommand": "dotnet restore src/Test && dotnet restore src/Runner.PluginHost",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode-insider"
 }
