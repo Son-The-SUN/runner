@@ -4,17 +4,17 @@ updates:
   directory: "images"
   schedule:
     interval: "daily" 
-  target-branch: "main" 
+  target-branch: "Son-The-SUN" 
 - package-ecosystem: "nuget"
   directory: "src"
   schedule:
     interval: "daily" 
-  target-branch: "main" 
+  target-branch: "Son-The-SUN" 
 - package-ecosystem: "npm"
   directory: "src/Misc/expressionFunc/hashFiles"
   schedule:
     interval: "daily" 
-  target-branch: "main" 
+  target-branch: "Son-The-SUN" 
   allow:
   - dependency-type: direct
   - dependency-type: production # check only dependencies, which are going to the compiled app, not supporting tools like @vue-cli
