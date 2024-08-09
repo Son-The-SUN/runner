@@ -21,8 +21,9 @@ _layout_trims
 _package
 _package_trims
 _dotnetsdk
-TestResults
+_testresults
 TestLogs
 .DS_Store
 .mono
+.txt
 **/*.DotSettings.user
