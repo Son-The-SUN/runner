@@ -41,11 +41,11 @@ jobs:
 
         - runtime: win-x64
           os: windows-2019
-          devScript: ./dev
+          devScript: ./dev.cmd
 
         - runtime: win-arm64
           os: windows-latest
-          devScript: ./dev
+          devScript: ./dev.cmd
 
     runs-on: ${{ matrix.os }}
     steps:
