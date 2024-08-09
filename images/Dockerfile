@@ -10,7 +10,7 @@ ARG BUILDX_VERSION=0.13.2
 
 RUN apt update -y && apt install curl unzip -y
 
-WORKDIR /actions-runner
+WORKDIR /HostaAI/actions-runner
 RUN export RUNNER_ARCH=${TARGETARCH} \
     && if [ "$RUNNER_ARCH" = "amd64" ]; then export RUNNER_ARCH=x64 ; fi \
     && curl -f -L -o runner.tar.gz https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-${TARGETOS}-${RUNNER_ARCH}-${RUNNER_VERSION}.tar.gz \
