@@ -1,17 +1,17 @@
 version: 2
 updates:
 - package-ecosystem: "docker"
-  directory: "/images"
+  directory: "images"
   schedule:
     interval: "daily" 
   target-branch: "main" 
 - package-ecosystem: "nuget"
-  directory: "/src"
+  directory: "src"
   schedule:
     interval: "daily" 
   target-branch: "main" 
 - package-ecosystem: "npm"
-  directory: "/src/Misc/expressionFunc/hashFiles"
+  directory: "src/Misc/expressionFunc/hashFiles"
   schedule:
     interval: "daily" 
   target-branch: "main" 
