@@ -6,7 +6,7 @@
 
 [![Actions Status](https://github.com/actions/runner/workflows/Runner%20CI/badge.svg)](https://github.com/actions/runner/actions)
 [![Lint](https://github.com/Son-The-SUN/runner/actions/workflows/lint.yml/badge.svg?branch=Son-The-SUN)](https://github.com/Son-The-SUN/runner/actions/workflows/lint.yml)
-
+[![Code Scanning - Action](https://github.com/Son-The-SUN/runner/actions/workflows/codeql.yml/badge.svg?branch=Son-The-SUN)](https://github.com/Son-The-SUN/runner/actions/workflows/codeql.yml)
 The runner is the application that runs a job from a GitHub Actions workflow. It is used by GitHub Actions in the [hosted virtual environments](https://github.com/actions/virtual-environments), or you can [self-host the runner](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-self-hosted-runners) in your own environment.
 
 ## Get Started
