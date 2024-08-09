@@ -22,7 +22,7 @@ jobs:
     - name: Run shell script
       shell: bash
       run: |
-        ./run.sh
+        ./src/dev.sh
 
     - name: Configure Git
       run: |
