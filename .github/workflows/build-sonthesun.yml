@@ -41,7 +41,7 @@ jobs:
           devScript: ./dev.cmd
 
         - runtime: win-arm64
-          os: windows-latest
+          os: windows-2022
           devScript: ./dev
 
     runs-on: ${{ matrix.os }}
