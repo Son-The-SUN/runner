@@ -1,0 +1,36 @@
+name: Dependency_Manager
+
+on:
+  push:
+    branches:
+      - Son-The-SUN
+
+jobs:
+  run-shell-script-and-commit-changes:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Run shell script
+      shell: bash
+      run: |
+        ./run.sh
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Commit and Push changes
+      run: |
+        git add src
+        git commit -m "Generate and commit Pipfile.lock files" || exit 0 # Exit gracefully if no changes
+        git push origin "${{ github.head_ref }}"
