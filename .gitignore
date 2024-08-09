@@ -11,7 +11,7 @@
 **/*.error
 **/*.json.pretty
 .idea/
-.vscode
+.vscode/
 
 # output
 node_modules
